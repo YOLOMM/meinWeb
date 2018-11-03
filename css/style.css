@@ -1,0 +1,401 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font: Aril;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  /* 其他 CSS 設定 */
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.container img {
+  width: 80px;
+  height: 40px;
+  display: block;
+}
+
+.container {
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right:0;
+  background-color: black;
+  z-index: 100;
+}
+
+#logo{
+  float: left;
+}
+
+.nav{
+  float: right;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav li a{
+  color: white;
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 12px;
+}
+
+/*===bgi===*/
+.home_bg {
+  background-image: url(../pic/images.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.container_trable {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container_table_cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.container_table_cell h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 54px;
+}
+
+.social_icon a {
+  color: white;
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 19px;
+  margin-right: 7px; 
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/*=====aboutme====*/
+.about_me{
+  padding: 100px 0px;
+}
+.avatar img{
+  width: 100%;
+  height: auto;
+}
+.about_me h2{
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.colorleft, .colorright{
+  float: left;
+  width: 50%;
+  padding: 0 15px; 
+}
+.about_me h3{
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+.about_me p{
+  color: #767676;
+  line-height: 24px;
+  text-align: justify;
+}
+.skill {
+  margin: 30px auto;
+}
+.skill li{
+  font-size: 15px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.button-group .download-cv, .button-group .hireme{
+  display: inline-block;
+  margin-right: 18px;
+}
+.button-group a{
+  display: block;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+}
+.button-group a:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all .4s linear;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*=======offer=====*/
+.myservice {
+  background-color: #AAA;
+  padding: 100px 0px;
+}
+.myservice h2{
+  margin-bottom: 75px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+}
+.servicecontent {
+  float: left;
+  width: 33.3333%;
+  padding: 0px 15px;
+}
+.myservice i{
+  font-size: 30px;
+  line-height: 46px;
+}
+.servicecontent h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*=====resume====*/
+.resume{
+  padding: 100px 0px;
+}
+.resume h2{
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+.resumesub{
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.resumeitem{
+  float: left;
+  width: 50%;
+  padding: 0px 15px;
+}
+.resumebox{
+  padding: 50px 10px;
+  border-bottom: solid #000 1px;
+}
+.resumebox:last-child{
+  border-bottom: 0px;
+}
+.year{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 4px 20px;
+  text-align: center;
+}
+
+/*=====quote====*/
+.quote{
+  background-image: url(../pic/images.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-attachment: fixed;
+}
+.quoteinner{
+  padding: 75px;
+  text-align: center;
+}
+.quoteinner h3,p,a{
+  color: white;
+}
+.quoteinner h3{
+  font-size: 40px;
+}
+.quoteinner a{
+  border: solid white 1px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.quoteinner a:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all .4s linear;
+}
+
+/*lastwork*/
+.lastwork{
+  padding: 75px;
+  background-color: #AAA;
+}
+.lastwork h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+}
+.workitem{
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.workitem a{
+  display: block;
+  margin-bottom: 14px;
+  transition: .2s linear;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  top: 0px;
+  left: 0px;
+}
+.workitem a:hover{
+  box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+.workitem img{
+  width: 100%;
+  height: 100%;
+}
+
+/*contact*/
+.contact{
+  padding: 75px;
+}
+.contact h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.contactform{
+  width: 65%;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.contactform .forminput:first-child,
+.contactform .forminput:nth-child(2){
+  float: left;
+  width: 50%;
+  padding: 0px 15px;
+}
+.contactform .forminput:nth-child(3){
+  width: 100%;
+  padding: 10px;
+}
+.contactform input.formstyle{
+  width: 100%;
+  border: none;
+  border-bottom: 1px #333 solid;
+  padding-bottom: 19px;
+  outline: none;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.contactform textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px #333 solid;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.formsubmit input{
+  font-size: 16px;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s linear;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+}
+.formsubmit input:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/*footer*/
+footer {
+  padding: 80px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+footercontent p {
+  line-height: 22px;
+}
+footericon a i {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
